@@ -1,12 +1,5 @@
--- AUTHOR: Richard Koranteng (richard@rkkoranteng.com)
---
--- NAME: databaseConfig.sql
-
--- DESCRIPTION: oracle instance and database configs specifc to each db
-
--- The following script is run as SYS
-
--- put your oracle db specific configs here. In example below I'm adding application tablespace
+-- put your oracle db specific configs here. 
+-- In example below I'm changing some instance parameters and adding application tablespace
 
 -- instance parameters
 alter system set db_recovery_file_dest='/ora/data5/fast_recovery_area/DEMODB' scope=spfile;
