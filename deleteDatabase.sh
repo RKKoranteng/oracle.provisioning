@@ -45,4 +45,4 @@ fi
 ORACLE_SID=$1
 
 # db deletion
-dbca -silent -deleteDatabase -sourceDB ${ORACLE_SID} -sysDBAUserName ${sysPassword} -sysDBAPassword ${sysPassword}
+dbca -silent -deleteDatabase -sourceDB ${ORACLE_SID} -sysDBAUserName welcome1 -sysDBAPassword welcome1
