@@ -1,0 +1,14 @@
+# put your response file details here
+
+responseFileVersion=/oracle/assistants/rspfmt_dbca_response_schema_v12.2.0
+gdbName=demodb
+sid=demodb
+templateName=/home/oracle/oracle-provisioning/db/demodb/databaseTemplate.dbc
+sysPassword=supersecret
+systemPassword=supersecret
+emConfiguration=NONE
+storageType=FS
+characterSet=WE8MSWIN1252
+nationalCharacterSet=AL16UTF16
+databaseType=MULTIPURPOSE
+createAsContainerDatabase=false
